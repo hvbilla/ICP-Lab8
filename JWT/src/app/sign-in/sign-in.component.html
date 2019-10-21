@@ -1,0 +1,60 @@
+<div class="col-3 center ">
+  <form>
+    <h1 class='title'>JWT Token Generator</h1>
+    <br>
+    <div class="form-group">
+      <input type="text" class="form-control form-control-lg control-label" name="Loginname" placeholder="User ID" [(ngModel)]="LoginName">
+    </div>
+    <div class="form-group">
+      <input type="password" class="form-control form-control-lg"  name="Loginpassword" placeholder="Password" [(ngModel)]="LoginPassword">
+    </div>
+
+    <div class="form-group" >
+      <button type="submit" class="signIn btn btn-success width-150" (click)="SignIn()">SignIn</button>
+    </div>
+  </form>
+</div>
+
+<!--<div *ngIf="InvalidUser" class="form-group">
+      <span style="color: red"> *Please check your credentials</span>
+    </div>-->
+<!--
+<div class="example-container mat-elevation-z8">
+<table mat-table #table [dataSource]="dataSource">
+
+ Title Column
+<ng-container matColumnDef="Customer_id">
+  <th mat-header-cell *matHeaderCellDef> Customer id</th>
+  <td mat-cell *matCellDef="let element" class="Customer_id-col"> {{element.Customer_id}} </td>
+</ng-container>
+
+ Title Column
+<ng-container matColumnDef="Customer_Name">
+  <th mat-header-cell *matHeaderCellDef> Customer Name</th>
+  <td mat-cell *matCellDef="let element"> {{element.Customer_Name}} </td>
+</ng-container>
+
+ Title Column
+<ng-container matColumnDef="Customer_LastName">
+  <th mat-header-cell *matHeaderCellDef> Customer LastName</th>
+  <td mat-cell *matCellDef="let element"> {{element.Customer_LastName}} </td>
+</ng-container>
+
+ Author Column
+<ng-container matColumnDef="Customer_Email">
+  <th mat-header-cell *matHeaderCellDef> Customer Email</th>
+  <td mat-cell *matCellDef="let element"> {{element.Customer_Email}} </td>
+</ng-container>
+
+ Author Column
+<ng-container matColumnDef="Customer_Age">
+  <th mat-header-cell *matHeaderCellDef> Customer Age</th>
+  <td mat-cell *matCellDef="let element"> {{element.Customer_Age}} </td>
+</ng-container>
+
+ Author Column
+<ng-container matColumnDef="Customer_Gender">
+  <th mat-header-cell *matHeaderCellDef> Customer Gender </th>
+  <td mat-cell *matCellDef="let element"> {{element.Customer_Gender}} </td>
+</ng-container> &ndash;&gt;
+-->
